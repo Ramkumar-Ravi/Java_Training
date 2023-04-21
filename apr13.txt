@@ -1,0 +1,7 @@
+117. List all the grade 2 and Grade 3 emps.
+select ename from emp where sal between 1201 and 4000 ;
+
+118. Display all grade 4.5 Analyst and Manager.
+select ename from emp where sal between 2001 and 9999 and job='MANAGER';
+
+119. List the Empno, Sal, Dname, grade, Experience and Annual sal of emps working for Dept 10 or 20.
